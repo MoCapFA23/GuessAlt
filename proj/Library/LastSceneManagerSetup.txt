@@ -3,10 +3,6 @@ sceneSetups:
   isLoaded: 1
   isActive: 1
   isSubScene: 0
-- path: Assets/Rokoko/Scenes/RokokoPluginExampleScene_CustomActors.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
 - path: Assets/Samples/XR Interaction Toolkit/2.2.0/Starter Assets/DemoScene.unity
   isLoaded: 1
   isActive: 0
