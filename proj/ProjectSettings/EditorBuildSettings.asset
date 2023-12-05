@@ -4,7 +4,16 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Guessault.unity
+    guid: 078f9d503e6f21a4e8bd4b317fd7af76
+  - enabled: 0
+    path: Assets/Scenes/DemoScene.unity
+    guid: 319dafa5c80f29f428dc1e0d03f04177
+  - enabled: 1
+    path: Assets/Scenes/Interior Scene.unity
+    guid: 024a4221728922347857f692bd3597b0
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e958c6dde354eea489fd4babaec2e11d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0e7650278480dca4e859c18fb9a49d2c, type: 2}
