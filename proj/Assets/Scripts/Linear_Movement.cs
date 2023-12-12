@@ -37,6 +37,7 @@ public class Linear_Movement : MonoBehaviour
             default:
                 break;
         }
+        _rb.AddForce(Vector3.zero);
     }
 
     private IEnumerator SelfDestruct()
