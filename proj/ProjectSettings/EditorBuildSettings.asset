@@ -15,5 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Interior Scene.unity
     guid: 024a4221728922347857f692bd3597b0
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e374481138d3d444c9f750719323dab8, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: e958c6dde354eea489fd4babaec2e11d, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 0e7650278480dca4e859c18fb9a49d2c, type: 2}
