@@ -1,4 +1,5 @@
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 
 public class Linear_Movement : MonoBehaviour
@@ -6,6 +7,7 @@ public class Linear_Movement : MonoBehaviour
     private Rigidbody _rb;
     private enum Direction { Forward, Back, Left, Right };
     [SerializeField] private Direction _currDir;
+    [SerializeField] private float speed;
     public float killTime;
     // Start is called before the first frame update
     public void Start()
@@ -21,16 +23,16 @@ public class Linear_Movement : MonoBehaviour
         switch(_currDir)
         {
             case Direction.Forward:
-                _rb.velocity = Vector3.forward;
+                _rb.velocity = Vector3.forward*speed;
                 break;
             case Direction.Back:
-                _rb.velocity = Vector3.back;
+                _rb.velocity = Vector3.back*speed;
                 break;
             case Direction.Left:
-                _rb.velocity = Vector2.left;
+                _rb.velocity = Vector2.left*speed;
                 break;
             case Direction.Right:
-                _rb.velocity = Vector2.right;
+                _rb.velocity = Vector2.right*speed;
                 break;
             default:
                 break;
