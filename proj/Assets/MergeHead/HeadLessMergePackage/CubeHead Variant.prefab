@@ -77,7 +77,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 3694080452872288181, guid: 4ff3c31411d2b874181e5cb77934a4eb, type: 3}
+  m_InteractionManager: {fileID: 6075888388960063810, guid: bfa8eeb57e035394a89365df906bfc1c, type: 3}
   m_Colliders:
   - {fileID: 6188904286595370479}
   m_InteractionLayerMask:
