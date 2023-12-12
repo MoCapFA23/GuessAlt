@@ -9,6 +9,8 @@ public class MergeSquare : MonoBehaviour
     Transform Block1;
     Transform Block2;
     public AudioSource audioPlayer;
+    public GameObject DeleteDoor;
+    public GameObject effects;
 
     
     // Start is called before the first frame update
@@ -37,6 +39,10 @@ public class MergeSquare : MonoBehaviour
             Destroy(collision.gameObject);
             Destroy(gameObject);
             audioPlayer.Play();
+            Destroy(DeleteDoor);
+            GameObject E = Instantiate(effects, transform.position, Quaternion.identity) as GameObject;
+            E.GetComponent<ParticleSystem>().Clear();
+            E.GetComponent<ParticleSystem>().Play();
         }
     }
 }
